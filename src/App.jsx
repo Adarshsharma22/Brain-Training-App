@@ -1,17 +1,16 @@
-import { useState } from 'react'
-
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";   // ← Updated path (since files are flat)
 
 function App() {
-  
-
   return (
-    <>
-      <section id="center">
-        <h1 className='text-4xl font-bold text-center'>Brain Training App</h1>
-        <p className='text-center text-lg mt-4'>Train your brain with fun and challenging games!</p>
-      </section>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />  
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
