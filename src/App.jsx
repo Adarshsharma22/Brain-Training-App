@@ -7,7 +7,7 @@ import ClickSpeed from "./component/ClickSpeed";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Brain-Training-App">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
