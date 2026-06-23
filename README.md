@@ -2,7 +2,7 @@
 
 A fun and interactive **Sequence Memory Game** designed to challenge and improve your short-term memory, focus, and cognitive skills.
 
-![Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge)
+![Demo](https://adarshsharma22.github.io/Brain-Training-App/)
 
 ## ✨ Features
 
