@@ -2,8 +2,6 @@
 
 A fun and interactive **Sequence Memory Game** designed to challenge and improve your short-term memory, focus, and cognitive skills.
 
-![Demo](https://adarshsharma22.github.io/Brain-Training-App/)
-
 ## ✨ Features
 
 - **Sequence Memory Game** – Watch, remember, and repeat increasingly complex patterns
